@@ -1,10 +1,9 @@
-//write a program that can take input and calculate the hypothenuse
+//write a program that can take input and calculate the hypotenuse
 #include <iostream>
 #include <cmath>
 
 //define variables
 double a, b, c;
-
 int main(){
 std::cout << "What is the value of a?"<<std::endl;
 std::cin >> a;
