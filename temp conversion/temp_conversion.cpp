@@ -6,16 +6,16 @@ int main(){
     std::cout << "Enter which degree you want to convert to (C or F)" << std::endl;
     std::cin >> temp;
     switch(temp){
-        case 'C': 
+        case ('C'): 
                 std::cout << "Enter the temperature ";
                 std::cin >> val;
                 conv = (val-32)*5/9;
-                std::cout << "Temp is " << conv << "C"; break;
-        case 'F': 
-            std::cout << "Enter the temperature ";
+                std::cout << "Temp is " << conv << " C"; break;
+        case ('F'): 
+            std::cout << "Entcer the temperature ";
             std::cin >> val;
             conv = val*(9/5)+32;
-            std::cout << "Temp is " << conv << "F"; break;
+            std::cout << "Temp is " << conv << " F"; break;
         default: std::cout <<"Enter either C or F";break;
     }
 }
