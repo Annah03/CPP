@@ -9,7 +9,7 @@ int main(){
         case 'C': 
                 std::cout << "Enter the temperature ";
                 std::cin >> val;
-                conv = (val-32)*5/9-32;
+                conv = (val-32)*5/9;
                 std::cout << "Temp is " << conv << "C"; break;
         case 'F': 
             std::cout << "Enter the temperature ";
